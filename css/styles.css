@@ -1,74 +1,64 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Background Color */
 body {
-  background-color: #f4f4f4; /* Svetla pozadina za celo telo stranice */
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1512444962578-8e76816718b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGZvb2QlMjBhbG9uZ3xlbnwwfHx8fDE2NjA1NzEyNw&ixlib=rb-1.2.1&q=80&w=1920') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  /* Stil za menu kategorije */
+.menu-category {
+  margin-bottom: 20px;
 }
 
-/* Header */
-header {
-  background-color: #333; /* Tamna boja za zaglavlje */
-  color: #fff; /* Bela boja za tekst u zaglavlju */
-  padding: 20px;
-  text-align: center;
+.menu-category h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
-/* Navigation Menu */
-nav ul {
-  list-style-type: none;
-  background-color: #444; /* Tamnija nijansa za meni */
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   overflow: hidden;
-  text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  color: #fff; /* Bela boja za tekst linkova u meniju */
-  padding: 15px 20px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #555; /* Svetlija boja za hover efekte */
-}
-
-/* Main Content */
-main {
-  padding: 20px;
-  background-color: #fff; /* Bela pozadina za glavni deo */
-  color: #333; /* Tamno siva boja za tekst */
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #333; /* Tamno siva za sve naslove */
-  margin-bottom: 15px;
-}
-
-/* Paragraphs */
-p {
-  color: #555; /* Svetlija siva za tekst u paragrafima */
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-/* Footer */
-footer {
-  background-color: #333; /* Tamna boja za podnožje */
-  color: #fff; /* Bela boja za tekst u podnožju */
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
+.card-img-top {
   width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25em;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
