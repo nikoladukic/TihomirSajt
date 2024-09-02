@@ -1,68 +1,74 @@
-
-  body {
-    background-color: #f4ede3; /* Svetlo braon pozadina */
-    color: #3e2f2f; /* Tamno braon boja teksta */
-    font-family: Arial, sans-serif; /* Podesite font prema vašim potrebama */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Background Color */
+body {
+  background-color: #f4f4f4; /* Svetla pozadina za celo telo stranice */
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
 header {
-    background-color: #8b5e3c; /* Srednje braon za zaglavlje */
-    color: #ffffff; /* Bela boja teksta */
-    padding: 20px;
-    text-align: center;
+  background-color: #333; /* Tamna boja za zaglavlje */
+  color: #fff; /* Bela boja za tekst u zaglavlju */
+  padding: 20px;
+  text-align: center;
 }
 
-nav {
-    background-color: #a67c52; /* Topla braon boja za navigaciju */
-    padding: 15px;
-    margin-bottom: 10px;
+/* Navigation Menu */
+nav ul {
+  list-style-type: none;
+  background-color: #444; /* Tamnija nijansa za meni */
+  overflow: hidden;
+  text-align: center;
 }
 
-nav a {
-    color: #ffffff; /* Bela boja teksta u navigaciji */
-    text-decoration: none;
-    padding: 10px 15px;
+nav ul li {
+  display: inline-block;
 }
 
-nav a:hover {
-    background-color: #6b4423; /* Tamnije braon prilikom hover efekta */
+nav ul li a {
+  display: block;
+  color: #fff; /* Bela boja za tekst linkova u meniju */
+  padding: 15px 20px;
+  text-decoration: none;
 }
 
+nav ul li a:hover {
+  background-color: #555; /* Svetlija boja za hover efekte */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  background-color: #fff; /* Bela pozadina za glavni deo */
+  color: #333; /* Tamno siva boja za tekst */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Tamno siva za sve naslove */
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  color: #555; /* Svetlija siva za tekst u paragrafima */
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Footer */
 footer {
-    background-color: #8b5e3c; /* Isto kao zaglavlje */
-    color: #ffffff; /* Bela boja teksta */
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-button {
-    background-color: #a67c52; /* Dugmad u braon boji */
-    color: #ffffff; /* Bela boja teksta */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #6b4423; /* Tamnija braon prilikom hover efekta */
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-.card {
-    background-color: #f4ede3; /* Svetlo braon boja za kartice */
-    border: 1px solid #a67c52; /* Srednje braon okvir */
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-h1, h2, h3 {
-    color: #3e2f2f; /* Tamno braon za naslove */
+  background-color: #333; /* Tamna boja za podnožje */
+  color: #fff; /* Bela boja za tekst u podnožju */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
