@@ -62,3 +62,30 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+#meni {
+  background-color: #cbb480; /* Svetlosiva pozadinska boja */
+  padding: 20px; /* Dodavanje unutrašnjeg razmaka */
+}
+#about {
+  background-color: #000000; /* Crna pozadina za sekciju */
+  color: #ffffff; /* Bela boja za tekst */
+  padding: 3rem 0; /* Dodajte padding za vertikalni razmak */
+}
+
+#about h2 {
+  color: #ffffff; /* Bela boja za naslov */
+}
+
+#about p {
+  color: #ffffff; /* Bela boja za paragraf tekst */
+}
+#footer {
+  background-color: #000000; /* Crna pozadina za footer */
+  color: #ffffff; /* Bela boja za tekst */
+  padding: 1rem 0; /* Dodajte padding za vertikalni razmak */
+}
+
+#footer p {
+  margin: 0; /* Uklonite marginu oko paragrafa */
+}
